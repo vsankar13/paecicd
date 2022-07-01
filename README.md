@@ -1,0 +1,1 @@
+Project to create to show Terraform, GitHub , GitHub actions and Azure integration.
