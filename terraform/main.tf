@@ -16,7 +16,7 @@ provider "azurerm" {
 }
 
 data "azurerm_client_config" "current" {}
-/*
+
 #Create Resource Group
 resource "azurerm_resource_group" "ecstool" {
   name     = "ecstool"
@@ -43,4 +43,4 @@ resource "azurerm_subnet" "subnet" {
 resource "azurerm_resource_group" "rg" {
   name     = "ecstoolResourceGroup"
   location = "eastus"
-} */
+}
